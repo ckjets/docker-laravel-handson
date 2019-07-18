@@ -22,6 +22,7 @@ services:
 # webコンテナ追記
   web:
     image: nginx:1.17.1-alpine
+    # サービスの起動順番
     depends_on:
       - app
     ports:

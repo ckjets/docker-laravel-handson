@@ -6,5 +6,15 @@
 ```bash:
 $ git clone
 $ 
+# 起動
 $ docker-compose up -d --build
+
+# 停止
+$ docker-compose down
+
+# ステータス確認
+$ docker-compose ps
+
+# コンテナにはいる
+$ docker-compose exec app ash
 ```
